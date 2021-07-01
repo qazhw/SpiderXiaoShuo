@@ -10,3 +10,10 @@
 **_`poetry install --no-dev`_** 
 
 **_`poetry remove [name]` 可以卸载依赖包，`poetry show` 可以显式安装好的包。_**
+****
+
+# 如果第一种poetry出现问题 则用下面的pipreqs
+## 首先安装pip install pipreqs
+
+##进入项目根目录在终端安装依赖
+**_`pip install -r requirements.txt`_**
